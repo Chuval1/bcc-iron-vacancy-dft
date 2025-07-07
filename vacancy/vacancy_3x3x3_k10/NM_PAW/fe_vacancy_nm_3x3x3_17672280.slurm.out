@@ -1,0 +1,46 @@
+Job started at Thu May 29 17:29:27 CEST 2025
+Running on node: node103
+SLURM_JOB_ID: 17672280
+SLURM_NTASKS: 128, OMP_NUM_THREADS: 1
+Input file: fe_nm_vac_3x3x3_k101010_paw_scf.in, Output file: fe_nm_vac_3x3x3_k101010_paw_scf.out
+Running NON-MAGNETIC vacancy calculation
+Running QE NM vacancy calculation with input=fe_nm_vac_3x3x3_k101010_paw_scf.in, output=fe_nm_vac_3x3x3_k101010_paw_scf.out
+Command: mpirun -np 128 pw.x -nk 8 < fe_nm_vac_3x3x3_k101010_paw_scf.in > fe_nm_vac_3x3x3_k101010_paw_scf.out
+Job finished at Thu May 29 18:37:25 CEST 2025
+
+###############################################################################
+Hábrók Cluster
+Job 17672280 for user s5322197
+Finished at: Thu May 29 18:37:29 CEST 2025
+
+Job details:
+============
+
+Job ID                         : 17672280
+Name                           : fe_vacancy_nm
+User                           : s5322197
+Partition                      : regularshort
+Nodes                          : node103
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : COMPLETED  
+Submit                         : 2025-05-29T13:59:55
+Start                          : 2025-05-29T17:29:22
+End                            : 2025-05-29T18:37:25
+Reserved walltime              :   05:30:00
+Used walltime                  :   01:08:03
+Used CPU time                  : 5-22:46:46 (Efficiency: 98.35%)
+% User (Computation)           : 96.44%
+% System (I/O)                 :  3.56%
+Total memory reserved          : 500G
+Maximum memory used            : 103.66G
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

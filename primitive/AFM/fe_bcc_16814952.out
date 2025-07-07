@@ -1,0 +1,40 @@
+Running on host: node1
+Starting at Thu Apr 24 21:06:55 CEST 2025
+Working directory: /home2/s5322197/fe_defects/bulk/AFM
+
+###############################################################################
+Hábrók Cluster
+Job 16814952 for user s5322197
+Finished at: Fri Apr 25 01:07:14 CEST 2025
+
+Job details:
+============
+
+Job ID                         : 16814952
+Name                           : fe_bcc
+User                           : s5322197
+Partition                      : regularshort
+Nodes                          : node[1-2,6-7]
+Number of Nodes                : 4
+Cores                          : 8
+Number of Tasks                : 4
+State                          : TIMEOUT,FAILED  
+Submit                         : 2025-04-24T21:05:17
+Start                          : 2025-04-24T21:06:52
+End                            : 2025-04-25T01:07:11
+Reserved walltime              :   04:00:00
+Used walltime                  :   04:00:19
+Used CPU time                  : 1-07:06:11 (Efficiency: 97.07%)
+% User (Computation)           : 93.54%
+% System (I/O)                 :  6.46%
+Total memory reserved          : 8G
+Maximum memory used            : 999.98M
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

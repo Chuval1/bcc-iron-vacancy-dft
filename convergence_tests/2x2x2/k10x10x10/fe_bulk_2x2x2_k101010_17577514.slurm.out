@@ -1,0 +1,50 @@
+Job started at Sat May 24 11:18:32 CEST 2025
+Running on node: node105
+SLURM_JOB_ID: 17577514
+SLURM_NTASKS: 32, OMP_NUM_THREADS: 1
+Input file: fe_bulk_2x2x2_k101010.in, Output file: fe_bulk_2x2x2_k101010.out
+Running QE calculation with input=fe_bulk_2x2x2_k101010.in, output=fe_bulk_2x2x2_k101010.out
+Command: mpirun -np 32 pw.x -nk 4 < fe_bulk_2x2x2_k101010.in > fe_bulk_2x2x2_k101010.out
+Job finished at Sat May 24 11:30:21 CEST 2025
+
+###############################################################################
+Hábrók Cluster
+Job 17577514 for user s5322197
+Finished at: Sat May 24 11:30:25 CEST 2025
+
+Job details:
+============
+
+Job ID                         : 17577514
+Name                           : fe_conv_16a_k101010
+User                           : s5322197
+Partition                      : regularshort
+Nodes                          : node105
+Number of Nodes                : 1
+Cores                          : 32
+Number of Tasks                : 1
+State                          : COMPLETED  
+Submit                         : 2025-05-24T11:17:22
+Start                          : 2025-05-24T11:18:27
+End                            : 2025-05-24T11:30:21
+Reserved walltime              : 02:00:00
+Used walltime                  : 00:11:54
+Used CPU time                  : 06:13:52 (Efficiency: 98.18%)
+% User (Computation)           : 91.91%
+% System (I/O)                 :  8.09%
+Total memory reserved          : 500G
+Maximum memory used            : 14.80G
+Hints and tips      :
+ 1) You requested much more CPU memory than your program used.
+    Please reduce the requested amount of memory.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/habrok/additional_information/job_hints
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

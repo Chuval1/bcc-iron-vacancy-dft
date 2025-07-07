@@ -1,0 +1,11 @@
+{
+  "PAW_formation_energy_eV": 2.330414194088683,
+  "USPP_formation_energy_eV": 2.319179588867016,
+  "formation_energy_difference_eV": 0.011234605221666971,
+  "PAW_avg_bulk_moment_muB": 2.2721666666666667,
+  "USPP_avg_bulk_moment_muB": 2.2807296296296293,
+  "PAW_avg_vac_moment_muB": 2.307081132075472,
+  "USPP_avg_vac_moment_muB": 2.3171566037735847,
+  "PAW_max_displacement_A": 0.07694493753740561,
+  "USPP_max_displacement_A": 0.07811233614440015
+}

@@ -1,0 +1,46 @@
+Job started at Tue Jun  3 14:34:02 CEST 2025
+Running on node: node81
+SLURM_JOB_ID: 17745559
+SLURM_NTASKS: 128, OMP_NUM_THREADS: 1
+Input file: fe_fm_bulk_3x3x3_k101010_uspp_relax.in, Output file: fe_fm_bulk_3x3x3_k101010_uspp_relax.out
+Running FM bulk relaxation calculation
+Running QE FM bulk relaxation with input=fe_fm_bulk_3x3x3_k101010_uspp_relax.in, output=fe_fm_bulk_3x3x3_k101010_uspp_relax.out
+Command: mpirun -np 128 pw.x -nk 8 < fe_fm_bulk_3x3x3_k101010_uspp_relax.in > fe_fm_bulk_3x3x3_k101010_uspp_relax.out
+Job finished at Tue Jun  3 17:01:08 CEST 2025
+
+###############################################################################
+Hábrók Cluster
+Job 17745559 for user s5322197
+Finished at: Tue Jun  3 17:01:12 CEST 2025
+
+Job details:
+============
+
+Job ID                         : 17745559
+Name                           : fe_bulk_fm_uspp_relax
+User                           : s5322197
+Partition                      : regularmedium
+Nodes                          : node81
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : RUNNING  
+Submit                         : 2025-06-03T10:30:13
+Start                          : 2025-06-03T14:33:56
+End                            : --
+Reserved walltime              : 12:00:00
+Used walltime                  : 02:27:16
+Used CPU time                  : -- 
+% User (Computation)           : --
+% System (I/O)                 : --
+Total memory reserved          : 150G
+Maximum memory used            : --
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

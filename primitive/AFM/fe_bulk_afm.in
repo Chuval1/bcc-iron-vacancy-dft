@@ -1,0 +1,41 @@
+&CONTROL
+  calculation = 'scf',
+  prefix = 'fe_bcc_afm',
+  pseudo_dir = '../../pseudopotentials/',
+  outdir = './tmp/',
+  tprnfor = .true.,
+  tstress = .true.,
+/
+
+&SYSTEM
+  ibrav = 1,
+  celldm(1) = 5.42,
+  nat = 2,
+  ntyp = 2,
+  ecutwfc = 45.0,
+  ecutrho = 360.0,
+  occupations = 'smearing',
+  smearing = 'marzari-vanderbilt',
+  degauss = 0.02,
+  nspin = 2,
+  starting_magnetization(1) = 0.7,
+  starting_magnetization(2) = -0.7,
+/
+
+&ELECTRONS
+  conv_thr = 1.0E-06,
+  mixing_beta = 0.3,
+  mixing_mode = 'local-TF',
+  electron_maxstep = 80,
+/
+
+ATOMIC_SPECIES
+  Fe_up 55.845 Fe.pbe-spn-kjpaw_psl.1.0.0.UPF
+  Fe_dn 55.845 Fe.pbe-spn-kjpaw_psl.1.0.0.UPF
+
+ATOMIC_POSITIONS crystal
+  Fe_up  0.00  0.00  0.00
+  Fe_dn  0.50  0.50  0.50
+
+K_POINTS automatic
+  8 8 8 0 0 0

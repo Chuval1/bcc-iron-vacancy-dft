@@ -1,0 +1,46 @@
+Job started at Tue Jun  3 19:07:35 CEST 2025
+Running on node: node81
+SLURM_JOB_ID: 17745561
+SLURM_NTASKS: 128, OMP_NUM_THREADS: 1
+Input file: fe_nm_bulk_3x3x3_k101010_uspp_relax.in, Output file: fe_nm_bulk_3x3x3_k101010_uspp_relax.out
+Running NM bulk relaxation calculation
+Running QE NM bulk relaxation with input=fe_nm_bulk_3x3x3_k101010_uspp_relax.in, output=fe_nm_bulk_3x3x3_k101010_uspp_relax.out
+Command: mpirun -np 128 pw.x -nk 8 < fe_nm_bulk_3x3x3_k101010_uspp_relax.in > fe_nm_bulk_3x3x3_k101010_uspp_relax.out
+Job finished at Tue Jun  3 20:16:15 CEST 2025
+
+###############################################################################
+Hábrók Cluster
+Job 17745561 for user s5322197
+Finished at: Tue Jun  3 20:16:19 CEST 2025
+
+Job details:
+============
+
+Job ID                         : 17745561
+Name                           : fe_bulk_nm_uspp_relax
+User                           : s5322197
+Partition                      : regularmedium
+Nodes                          : node81
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : COMPLETED  
+Submit                         : 2025-06-03T10:30:15
+Start                          : 2025-06-03T19:07:29
+End                            : 2025-06-03T20:16:15
+Reserved walltime              :   12:00:00
+Used walltime                  :   01:08:46
+Used CPU time                  : 6-00:55:24 (Efficiency: 98.79%)
+% User (Computation)           : 96.64%
+% System (I/O)                 :  3.36%
+Total memory reserved          : 150G
+Maximum memory used            : 99.91G
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

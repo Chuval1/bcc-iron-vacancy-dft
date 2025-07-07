@@ -1,0 +1,42 @@
+&control
+    calculation = 'scf'
+    verbosity = 'high'
+    restart_mode= 'from_scratch'
+    prefix = 'fe_bcc_nm_paw'
+    outdir = './tmp'
+    pseudo_dir = '../../../pseudopotentials'
+    tprnfor = .true.
+    tstress = .true.
+    disk_io = 'low'
+    wf_collect = .false.
+    max_seconds = 82800
+ /
+&system
+    ibrav = 3
+    celldm(1) = 5.42
+    nat = 1
+    ntyp = 1
+
+    ecutwfc = 90
+    ecutrho = 1080
+
+    occupations = 'smearing'
+    smearing = 'mv'
+    degauss = 0.01
+    
+    nspin = 1
+ /
+&electrons
+    electron_maxstep = 300
+    conv_thr = 1e-10
+    mixing_beta = 0.2
+ /
+
+ATOMIC_SPECIES
+Fe 55.845 Fe.pbe-spn-kjpaw_psl.0.2.1.UPF
+ 
+ATOMIC_POSITIONS (crystal)
+Fe 0.0 0.0 0.0
+
+K_POINTS (automatic)
+  16 16 16 0 0 0

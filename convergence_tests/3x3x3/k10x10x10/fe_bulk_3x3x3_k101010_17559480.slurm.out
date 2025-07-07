@@ -1,0 +1,45 @@
+Job started at Fri May 23 06:06:39 CEST 2025
+Running on node: node76
+SLURM_JOB_ID: 17559480
+SLURM_NTASKS: 128, OMP_NUM_THREADS: 1
+Input file: fe_bulk_3x3x3_k101010.in, Output file: fe_bulk_3x3x3_k101010.out
+Running QE calculation with input=fe_bulk_3x3x3_k101010.in, output=fe_bulk_3x3x3_k101010.out
+Command: mpirun -np 128 pw.x -nk 8 < fe_bulk_3x3x3_k101010.in > fe_bulk_3x3x3_k101010.out
+Job finished at Fri May 23 08:58:15 CEST 2025
+
+###############################################################################
+Hábrók Cluster
+Job 17559480 for user s5322197
+Finished at: Fri May 23 08:58:19 CEST 2025
+
+Job details:
+============
+
+Job ID                         : 17559480
+Name                           : fe_conv_54a
+User                           : s5322197
+Partition                      : regularshort
+Nodes                          : node76
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : COMPLETED  
+Submit                         : 2025-05-23T05:23:58
+Start                          : 2025-05-23T06:06:34
+End                            : 2025-05-23T08:58:15
+Reserved walltime              :    05:30:00
+Used walltime                  :    02:51:41
+Used CPU time                  : 15-02:16:19 (Efficiency: 98.91%)
+% User (Computation)           : 96.26%
+% System (I/O)                 :  3.74%
+Total memory reserved          : 500G
+Maximum memory used            : 131.49G
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

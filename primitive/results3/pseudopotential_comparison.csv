@@ -1,0 +1,4 @@
+Pseudopotential,FM Lattice Constant (Å),NM Lattice Constant (Å),Magnetic Moment (μ$_B$),FM-NM Energy Difference (eV/atom)
+Fe.pbe-spn-kjpaw_psl.0.2.1.UPF,2.868139,2.868139,2.250000,0.577684
+Fe.pbe-spn-kjpaw_psl.1.0.0.UPF,2.868139,2.868139,2.250000,0.576591
+Fe.pbe-spn-rrkjus_psl.0.2.1.UPF,2.868139,2.868139,2.250000,0.586153

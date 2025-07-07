@@ -1,0 +1,42 @@
+Job RESTART started at Sun May 11 05:50:28 CEST 2025
+Running on node: node98
+Number of tasks: 128
+Running calculation with input=fe_bulk_nm.in, output=fe_bulk_nm_restart.out
+Job finished at Sun May 11 05:50:47 CEST 2025
+
+###############################################################################
+Hábrók Cluster
+Job 17205511 for user s5322197
+Finished at: Sun May 11 05:50:51 CEST 2025
+
+Job details:
+============
+
+Job ID                         : 17205511
+Name                           : fe_bcc_restart
+User                           : s5322197
+Partition                      : regularmedium
+Nodes                          : node98
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 128
+State                          : COMPLETED  
+Submit                         : 2025-05-11T05:13:51
+Start                          : 2025-05-11T05:50:25
+End                            : 2025-05-11T05:50:47
+Reserved walltime              : 3-00:00:00
+Used walltime                  :   00:00:22
+Used CPU time                  :   00:20:30 (Efficiency: 43.69%)
+% User (Computation)           : 50.89%
+% System (I/O)                 : 49.11%
+Total memory reserved          : 250G
+Maximum memory used            : 1.07G
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

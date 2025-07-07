@@ -1,0 +1,41 @@
+Job started at Sat May 10 07:38:31 CEST 2025
+Running on node: node2
+Number of tasks: 16
+Running calculation with input=fe_bulk_nm.in, output=fe_bulk_nm.out
+
+###############################################################################
+Hábrók Cluster
+Job 17154909 for user s5322197
+Finished at: Sat May 10 13:39:01 CEST 2025
+
+Job details:
+============
+
+Job ID                         : 17154909
+Name                           : fe_bcc
+User                           : s5322197
+Partition                      : regularshort
+Nodes                          : node2
+Number of Nodes                : 1
+Cores                          : 16
+Number of Tasks                : 1
+State                          : TIMEOUT  
+Submit                         : 2025-05-10T07:38:27
+Start                          : 2025-05-10T07:38:28
+End                            : 2025-05-10T13:38:57
+Reserved walltime              :   06:00:00
+Used walltime                  :   06:00:29
+Used CPU time                  : 3-22:01:56 (Efficiency: 97.82%)
+% User (Computation)           : 94.99%
+% System (I/O)                 :  5.01%
+Total memory reserved          : 4G
+Maximum memory used            : 3.11G
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

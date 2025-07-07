@@ -1,0 +1,46 @@
+Job started at Sat Jun  7 14:00:43 CEST 2025
+Running on node: node109
+SLURM_JOB_ID: 17837799
+SLURM_NTASKS: 128, OMP_NUM_THREADS: 1
+Input file: fe_fm_bulk_3x3x3_k101010_paw_scf.in, Output file: fe_fm_bulk_3x3x3_k101010_paw_scf.out
+Running FM bulk SCF calculation
+Running QE FM bulk SCF with input=fe_fm_bulk_3x3x3_k101010_paw_scf.in, output=fe_fm_bulk_3x3x3_k101010_paw_scf.out
+Command: mpirun -np 128 pw.x -nk 8 < fe_fm_bulk_3x3x3_k101010_paw_scf.in > fe_fm_bulk_3x3x3_k101010_paw_scf.out
+Job finished at Sat Jun  7 16:52:52 CEST 2025
+
+###############################################################################
+Hábrók Cluster
+Job 17837799 for user s5322197
+Finished at: Sat Jun  7 16:52:56 CEST 2025
+
+Job details:
+============
+
+Job ID                         : 17837799
+Name                           : fe_bulk_fm_paw_scf
+User                           : s5322197
+Partition                      : regularshort
+Nodes                          : node109
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : COMPLETED  
+Submit                         : 2025-06-07T14:00:37
+Start                          : 2025-06-07T14:00:37
+End                            : 2025-06-07T16:52:52
+Reserved walltime              :    03:30:00
+Used walltime                  :    02:52:15
+Used CPU time                  : 15-03:06:42 (Efficiency: 98.81%)
+% User (Computation)           : 96.11%
+% System (I/O)                 :  3.89%
+Total memory reserved          : 150G
+Maximum memory used            : 131.52G
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

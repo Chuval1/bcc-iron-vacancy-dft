@@ -1,0 +1,47 @@
+Job started at Tue May 13 23:25:04 CEST 2025
+Running on node: node7
+Number of tasks: 32
+Running calculation with input=fe_bulk_2x2x2_k101010.in, output=fe_bulk_2x2x2_k101010.out
+Job finished at Wed May 14 22:38:25 CEST 2025
+
+###############################################################################
+Hábrók Cluster
+Job 17242003 for user s5322197
+Finished at: Wed May 14 22:38:29 CEST 2025
+
+Job details:
+============
+
+Job ID                         : 17242003
+Name                           : fe_conv
+User                           : s5322197
+Partition                      : regularlong
+Nodes                          : node7
+Number of Nodes                : 1
+Cores                          : 32
+Number of Tasks                : 1
+State                          : COMPLETED  
+Submit                         : 2025-05-13T14:04:43
+Start                          : 2025-05-13T23:25:00
+End                            : 2025-05-14T22:38:25
+Reserved walltime              :  7-00:00:00
+Used walltime                  :    23:13:25
+Used CPU time                  : 30-11:46:55 (Efficiency: 98.47%)
+% User (Computation)           : 95.85%
+% System (I/O)                 :  4.15%
+Total memory reserved          : 128G
+Maximum memory used            : 12.93G
+Hints and tips      :
+ 1) You requested much more CPU memory than your program used.
+    Please reduce the requested amount of memory.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/habrok/additional_information/job_hints
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

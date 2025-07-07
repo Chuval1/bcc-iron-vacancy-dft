@@ -1,0 +1,34 @@
+&CONTROL
+  calculation = 'scf',
+  prefix = 'fe_bcc_fm',
+  pseudo_dir = '../../pseudopotentials/',
+  outdir = './tmp/',
+  tprnfor = .true.,
+  tstress = .true.,
+  restart_mode = 'restart',
+/
+&SYSTEM
+  ibrav = 3,                   ! BCC lattice
+  celldm(1) = 5.42,            ! Lattice parameter in Bohr (≈2.87 Å)
+  nat = 1,                     ! 1 atom per unit cell
+  ntyp = 1,                    ! 1 element type
+  ecutwfc = 45.0,              ! Plane-wave cutoff (Ry)
+  ecutrho = 360.0,             ! Charge density cutoff 
+  occupations = 'smearing',    ! Metallic system
+  smearing = 'marzari-vanderbilt', ! Cold smearing - better for metals
+  degauss = 0.02,              ! Smearing width (Ry)
+  nspin = 2,                   ! Enable spin polarization
+  starting_magnetization(1) = 0.7, ! Initial magnetization
+/
+&ELECTRONS
+  conv_thr = 1.0E-06,          ! Convergence threshold
+  mixing_beta = 0.3,           ! Conservative mixing
+  mixing_mode = 'local-TF',    ! Good for magnetic systems
+  electron_maxstep = 80,       ! Max SCF iterations
+/
+ATOMIC_SPECIES
+  Fe 55.845 Fe.pbe-spn-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS crystal
+  Fe 0.0 0.0 0.0               ! Origin of the cell
+K_POINTS automatic
+  8 8 8 0 0 0                  ! 8×8×8 Monkhorst-Pack grid
